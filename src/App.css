@@ -1,42 +1,35 @@
-/* .App{
-  background-color: whitesmoke;
-} */
-/*product cardwrapper*/
+
+
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
+
+/*product cardwrapper*/
 .productwrapper {
   margin-top:4vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
- height:200vh;
- 
+grid-gap:2rem;
+margin-left:2rem;
+
 }
 
 #loading{
   margin-left:6px;
-  margin-top:6px;
+  margin:6px;
   color:rgb(35, 147, 187);
   font-size:1rem;
 }
 .card {
   height: 17rem;
   width: 18rem;
-
-
-
-  /* box-shadow:2px 2px 2px lightgray; */
-  display: flex;
+ display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 1rem;
-
-
-
-
   border-radius: 6px;
   padding-top: 1rem;
 
@@ -46,8 +39,6 @@
 .card img {
   height: 70%;
   width: 40%;
-
-
 }
 
 .card .imgwrapper {
