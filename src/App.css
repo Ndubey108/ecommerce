@@ -1,0 +1,262 @@
+/* .App{
+  background-color: whitesmoke;
+} */
+/*product cardwrapper*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.productwrapper {
+  margin-top:4vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+
+
+}
+
+#loading{
+  margin-left:6px;
+  margin:6px;
+  color:rgb(35, 147, 187);
+  font-size:1rem;
+}
+.card {
+  height: 17rem;
+  width: 18rem;
+
+
+
+  /* box-shadow:2px 2px 2px lightgray; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+
+
+
+
+  border-radius: 6px;
+  padding-top: 1rem;
+
+
+}
+
+.card img {
+  height: 70%;
+  width: 40%;
+
+
+}
+
+.card .imgwrapper {
+  width: 80%;
+  height: 10rem;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  color: rgb(105, 102, 102);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  text-align: left;
+  font-weight:550;
+}
+
+.card h4 {
+  font-size: 1rem;
+  color: rgba(31, 26, 26, 0.805);
+  margin-top: 0px;
+  margin-bottom: 1px;
+ margin-left:-250px;
+ font-weight:450;
+}
+
+.card .btn {
+
+  margin-top: 0px;
+  color: purple;
+  border: 2px solid purple;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+}
+
+.productheading{
+  text-align: center;
+  margin-top:5vh;
+}
+/*cart*/
+.cart{
+  margin-top:6vh;
+}
+.cartwrapper {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2rem;
+  height:70vh;
+}
+.cartmsg{
+  display:flex;
+  justify-content: center;
+ margin-top:30vh;
+  color:gray;
+  font-size:1rem;
+}
+.cartCard {
+  background-color: white;
+  max-height: 80vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px lightgray;
+padding:1rem;
+}
+
+.cartCard img {
+  margin-left: 4rem;
+  height: 70px;
+  width: 70px;
+}
+
+.cartCard .btn {
+ border-radius: 10px;
+  margin: auto;
+  padding: 1rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+}
+.cartCard .btn1{
+  margin-left:4rem;
+  color: white;
+ background-color:black;
+}
+
+.cartCard .btn2{
+ 
+  color: purple;
+  border: 1px solid purple;
+}
+.cartCard h3,
+h4 {
+  margin-left: 4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: 450;
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.spinner {
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgb(9, 107, 146);
+  border-radius: 50%;
+  transform: rotate()
+}
+
+/*navbar*/
+.navItems {
+  height: 12vh;
+  background-color: black;
+  
+}
+
+.navItems .heading {
+  float: left;
+  text-align: center;
+  color: white;
+  margin-top:1vh;
+}
+
+.navItems .link {
+  float: right;
+  margin-top:0.8vh;
+}
+
+.navLink {
+ 
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.navLink:hover {
+  color: grey;
+  font-weight: 700;
+}
+
+.margin-l {
+  margin-left: 5vw;
+}
+.text{
+  padding:0.4rem;
+  font-weight:500;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline:none;
+}
+.cartimg {
+  height: 30px;
+  width: 30px;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  background-color: whitesmoke;
+
+}
+
+.count {
+  position: absolute;
+  top: 2vh;
+  right: 4vw;
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+/*slider*/
+.imgslider img{
+ 
+  height:40vh;
+  width:80%;
+  margin:auto;
+}
+/*footer*/
+.footer{
+  background-color:black;
+  height:10vh;
+  
+ 
+  
+}
+.footerNote{
+  color:grey;
+  font-weight:500;
+  font-size:1rem;
+padding:2rem ;
+
+}
