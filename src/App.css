@@ -13,7 +13,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
  height:200vh;
-  margin-left:5rem;
+ 
 }
 
 #loading{
@@ -31,7 +31,7 @@
   /* box-shadow:2px 2px 2px lightgray; */
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-bottom: 1rem;
 
 
